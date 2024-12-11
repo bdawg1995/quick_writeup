@@ -5,7 +5,7 @@ Quick Writeup Client is a command-line tool designed to simplify the management 
 ## Features
 - **Create Writeups:** Quickly create new writeups and organize them by topics.
 - **Edit Writeups:** Modify existing writeups with ease.
-- **Organize Topics:** Automatically manage topics with a structured directory system.
+- **Sorted by date and topics:** Automatically sort writeups by date and topics.
 
 ## Installation
 This application is designed for Linux users. Follow the steps below to install the application:
@@ -33,10 +33,12 @@ Before launching the application, you need to manually configure the path for to
 
 Within the .json
 ```bash
-~  "topics_path": "/path/to/your/topics"
+{
+  "topics_path": "/path/to/your/topics"
+}
 ```
 
-You can manually edit this file if needed to update the topics path.
+Manually edit this file when needed to update the topics path.
 
 ## Usage
 1. Launch the application:

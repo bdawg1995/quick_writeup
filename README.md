@@ -1,14 +1,14 @@
-# Quick Writeup Client CLI
+# Quick Writeup CLI
 
-Quick Writeup Client is a command-line tool designed to simplify the management of writeup entries. The application allows users to create, edit, and maintain their writeups efficiently.
+Quick Writeup is a command-line tool designed to simplify the management of writeup entries. The application allows users to create, edit, and maintain their writeups efficiently.
 
 ## Features
 - **Create Writeups:** Quickly create new writeups and organize them by topics.
 - **Edit Writeups:** Modify existing writeups with ease.
 - **Sorted by date and topics:** Automatically sort writeups by date and topics.
 
-## Installation
-This application is designed for Linux users. Follow the steps below to install the application:
+## Usage
+This application is designed for Linux users. Follow the steps below to start the application:
 
 ### Using Source Code
 1. Clone the repository:
@@ -39,20 +39,6 @@ Within the .json
 ```
 
 Manually edit this file when needed to update the topics path.
-
-## Usage
-1. Launch the application:
-   ```bash
-   quick-writeup
-   ```
-
-2. Navigate through the interface to create or edit writeups.
-
-## Keyboard Shortcuts
-- **Ctrl+S**: Save the current writeup.
-- **Ctrl+Q**: Quit the application.
-
-
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.

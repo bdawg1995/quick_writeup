@@ -1,0 +1,33 @@
+# Ignore Python build files
+dist/
+build/
+*.egg-info/
+setup.py
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+venv/
+env/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# OS-specific files
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Ignore test reports
+*.coverage
+*.cover
+.nox/
